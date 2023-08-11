@@ -1,4 +1,4 @@
-package ywry.aula2.questao1_OlaMundo;
+package ywry.unidade1.exercicio1.questao1_OlaMundo;
 
 public class OlaMundo {
     public static void main(String[] args) throws Exception {

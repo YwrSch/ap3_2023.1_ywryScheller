@@ -1,8 +1,9 @@
 // Código secreto: 10092781470
-package ywry.aula3.questao4_Banco;
+package ywry.unidade1.exercicio2.questao4_Banco;
 
 import java.util.LinkedList;
-import ywry.aula2.questao4_ContaBancaria.ContaBancaria;
+
+import ywry.unidade1.exercicio1.questao4_ContaBancaria.ContaBancaria;
 
 public class Banco {
     String nome;

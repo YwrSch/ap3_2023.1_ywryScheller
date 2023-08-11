@@ -1,5 +1,5 @@
 // Código secreto: 10092781470
-package ywry.aula3.questao1_Pessoa;
+package ywry.unidade1.exercicio2.questao1_Pessoa;
 
 public class TestaPessoa {
     public static void main(String[] args) {

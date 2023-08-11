@@ -1,4 +1,4 @@
-package ywry.aula2.questao2_Aluno;
+package ywry.unidade1.exercicio1.questao2_Aluno;
 
 public class Aluno {
 
