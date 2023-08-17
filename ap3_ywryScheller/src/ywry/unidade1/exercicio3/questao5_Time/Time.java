@@ -37,7 +37,6 @@ public class Time {
         System.out.print("Informe a altura do jogador em metros: ");
         float altura = sc.nextFloat();
         getJogadores().add(new Jogador(nome, altura, idade));
-        sc.close();
     }
 
     public void listarJogadores() {
