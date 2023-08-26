@@ -7,7 +7,7 @@ public class TestaFuncionario {
     public static void main(String[] args) {
         HashMap<String, Funcionario> funcionarios = new HashMap<String, Funcionario>();
         for (int i = 0; i < 14; i++) {
-            Funcionario f = new Funcionario();
+            Funcionario f = new Funcionario(null, null, 0);
             f.setNome("Funcionario_" + Integer.toString(i + 1));
             if (i < 2) {
                 f.setCargo("Gerente");
