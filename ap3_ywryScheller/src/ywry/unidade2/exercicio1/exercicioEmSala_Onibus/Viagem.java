@@ -1,4 +1,4 @@
-package ywry.unidade2.exercicio1.exercicioEmSala;
+package ywry.unidade2.exercicio1.exercicioEmSala_Onibus;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -20,11 +20,7 @@ public class Viagem {
         this.dataHoraChegada = dataHoraChegada;
         this.assentos = new ArrayList<Assento>(40);
         for (int i = 1; i <= 40; i++) {
-            if (i % 2 == 1) {
-                assentos.add(new Assento(i, Tipo.janela));
-            } else {
-                assentos.add(new Assento(i, Tipo.corredor));
-            }
+            assentos.add(new Assento(i));
         }
 
     }

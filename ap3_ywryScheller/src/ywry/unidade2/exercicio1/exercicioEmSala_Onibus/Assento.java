@@ -1,14 +1,18 @@
-package ywry.unidade2.exercicio1.exercicioEmSala;
+package ywry.unidade2.exercicio1.exercicioEmSala_Onibus;
 
 public class Assento {
     int numeroAssento;
     boolean disponivel;
     Tipo tipo;
 
-    public Assento(int numeroAssento, Tipo tipo) {
+    public Assento(int numeroAssento) {
         this.numeroAssento = numeroAssento;
         this.disponivel = true;
-        this.tipo = tipo;
+        if (numeroAssento % 2 == 1) {
+            this.tipo = Tipo.janela;
+        } else {
+            this.tipo = Tipo.corredor;
+        }
     }
 
     public int getNumeroAssento() {
@@ -37,7 +41,7 @@ public class Assento {
 
     @Override
     public String toString() {
-        return "Assento [numeroAssento=" + numeroAssento + ", disponivel=" + disponivel + ", tipo=" + tipo + "]";
+        return "\nAssento [numeroAssento=" + numeroAssento + ", disponivel=" + disponivel + ", tipo=" + tipo + "]";
     }
 
 }

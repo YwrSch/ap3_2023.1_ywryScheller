@@ -1,4 +1,4 @@
-package ywry.unidade2.exercicio1.exercicioEmSala;
+package ywry.unidade2.exercicio1.exercicioEmSala_Onibus;
 
 import java.time.LocalDate;
 

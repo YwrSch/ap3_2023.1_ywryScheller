@@ -1,4 +1,4 @@
-package ywry.unidade2.exercicio1.exercicioEmSala;
+package ywry.unidade2.exercicio1.exercicioEmSala_Onibus;
 
 public class Reserva {
     Passageiro passageiro;
@@ -9,6 +9,7 @@ public class Reserva {
         this.passageiro = passageiro;
         this.assento = assento;
         this.viagem = viagem;
+        this.viagem.reservarAssento(this.assento.numeroAssento);
     }
 
     public Passageiro getPassageiro() {
