@@ -6,9 +6,9 @@ public class Curso {
     private String cursoNome;
     private ArrayList<Disciplina> disciplinas;
 
-    public Curso(String cursoNome, ArrayList<Disciplina> disciplinas) {
+    public Curso(String cursoNome) {
         this.cursoNome = cursoNome;
-        this.disciplinas = disciplinas;
+        this.disciplinas = new ArrayList<Disciplina>();
     }
 
     public String getCursoNome() {
@@ -25,6 +25,10 @@ public class Curso {
 
     public void setDisciplinas(ArrayList<Disciplina> disciplinas) {
         this.disciplinas = disciplinas;
+    }
+
+    public void registrarDiciplina(Disciplina disciplina){
+        getDisciplinas().add(disciplina);
     }
 
     @Override
