@@ -8,10 +8,9 @@ public class Professor {
     private LocalDate dataNascimento;
     private Disciplina disciplina;
 
-    public Professor(String nome, LocalDate dataNascimento, Disciplina disciplina) {
+    public Professor(String nome, LocalDate dataNascimento) {
         this.nome = nome;
         this.dataNascimento = dataNascimento;
-        this.disciplina = disciplina;
     }
 
     public String getNome() {

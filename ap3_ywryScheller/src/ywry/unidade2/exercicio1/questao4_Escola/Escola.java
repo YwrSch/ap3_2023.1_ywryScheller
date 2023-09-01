@@ -40,7 +40,8 @@ public class Escola {
     }
 
     public void contratarProfessor(Professor professor, Disciplina disciplina){
-        getProfessores().add(new Professor(professor.getNome(), professor.getDataNascimento(), disciplina));
+        professor.setDisciplina(disciplina);
+        getProfessores().add(professor);
     }
 
     public void listarProfessores(){
